@@ -17,9 +17,10 @@ public class DirectorioTelefonico {
         
     }
     public void agregarContacto(){
-        
     }
+  /*      
     public Cliente buscarContacto(){
        
                }
+*/
 }
