@@ -46,54 +46,53 @@
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" attributes="0">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
-                          <Component id="btn_nuevo" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
-                          <Component id="btn_guardar" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="btn_borrar" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" attributes="0">
-                          <EmptySpace min="359" pref="359" max="-2" attributes="0"/>
-                          <Component id="btn_salir" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <EmptySpace max="32767" attributes="0"/>
-              </Group>
-              <Group type="102" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="1" attributes="0">
                       <Component id="jSeparator1" alignment="1" max="32767" attributes="0"/>
                       <Group type="102" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="2" attributes="0">
+                                      <Component id="txt_dni" alignment="2" max="32767" attributes="0"/>
+                                      <Component id="txt_nombre" alignment="2" max="32767" attributes="0"/>
+                                      <Component id="txt_apellido" alignment="2" max="32767" attributes="0"/>
+                                      <Component id="txt_direccion" alignment="2" max="32767" attributes="0"/>
+                                      <Component id="txt_ciudad" alignment="2" max="32767" attributes="0"/>
+                                      <Component id="jScrollPane1" alignment="2" min="-2" pref="314" max="-2" attributes="0"/>
+                                      <Component id="txt_telefono" alignment="2" max="32767" attributes="0"/>
+                                      <Component id="lbl_lista" alignment="2" min="-2" pref="118" max="-2" attributes="0"/>
+                                      <Component id="jLabel6" alignment="2" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                                  <Component id="btn_nuevo" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="btn_descartar" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="btn_guardar" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="btn_borrar" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                              </Group>
                           </Group>
-                          <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="2" attributes="0">
-                              <Component id="txt_dni" alignment="2" max="32767" attributes="0"/>
-                              <Component id="txt_nombre" alignment="2" max="32767" attributes="0"/>
-                              <Component id="txt_apellido" alignment="2" max="32767" attributes="0"/>
-                              <Component id="txt_direccion" alignment="2" max="32767" attributes="0"/>
-                              <Component id="txt_ciudad" alignment="2" max="32767" attributes="0"/>
-                              <Component id="jScrollPane1" alignment="2" min="-2" pref="314" max="-2" attributes="0"/>
-                              <Component id="txt_telefono" alignment="2" max="32767" attributes="0"/>
-                              <Component id="lbl_lista" alignment="2" min="-2" pref="118" max="-2" attributes="0"/>
-                              <Component id="jLabel6" alignment="2" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                   <Component id="btn_buscarTelefono" max="32767" attributes="0"/>
                                   <Component id="btn_buscarContact" max="32767" attributes="0"/>
                               </Group>
                               <Component id="btn_buscar" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="btn_salir" alignment="0" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="32767" attributes="0"/>
                       </Group>
@@ -155,6 +154,7 @@
                       <Component id="btn_guardar" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="btn_borrar" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="btn_salir" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btn_descartar" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
@@ -197,15 +197,24 @@
         <Component class="javax.swing.JTextField" name="txt_nombre">
         </Component>
         <Component class="javax.swing.JTextField" name="txt_apellido">
+          <Events>
+            <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt_apellidoKeyReleased"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JTextField" name="txt_direccion">
         </Component>
         <Component class="javax.swing.JTextField" name="txt_ciudad">
+          <Events>
+            <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt_ciudadKeyReleased"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btn_buscar">
           <Properties>
             <Property name="text" type="java.lang.String" value="Buscar"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_buscarActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JSeparator" name="jSeparator1">
         </Component>
@@ -215,16 +224,25 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="txt_telefono">
+          <Events>
+            <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt_telefonoKeyReleased"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btn_nuevo">
           <Properties>
             <Property name="text" type="java.lang.String" value="Nuevo"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_nuevoActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btn_guardar">
           <Properties>
             <Property name="text" type="java.lang.String" value="Guardar"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_guardarActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btn_borrar">
           <Properties>
@@ -235,6 +253,9 @@
           <Properties>
             <Property name="text" type="java.lang.String" value="Salir"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_salirActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btn_buscarTelefono">
           <Properties>
@@ -249,7 +270,6 @@
         <Component class="javax.swing.JLabel" name="lbl_lista">
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="text" type="java.lang.String" value="Lista "/>
           </Properties>
         </Component>
         <Container class="javax.swing.JScrollPane" name="jScrollPane1">
@@ -271,6 +291,14 @@
             </Component>
           </SubComponents>
         </Container>
+        <Component class="javax.swing.JButton" name="btn_descartar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Descartar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_descartarActionPerformed"/>
+          </Events>
+        </Component>
       </SubComponents>
     </Container>
   </SubComponents>
