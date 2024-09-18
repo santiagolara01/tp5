@@ -9,6 +9,7 @@ package tp5;
  * @author Santiago Lara
  */
 public class Cliente {
+
     int dni;
     String nombre;
     String apellido;
@@ -62,6 +63,10 @@ public class Cliente {
     public void setDireccion(String direccion) {
         this.direccion = direccion;
     }
-    
-    
+
+    @Override
+    public String toString() {
+        return " Cliente: " + dni + " - " + nombre + " " + apellido;
+    }
+
 }
