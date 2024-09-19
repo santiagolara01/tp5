@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package tp5;
 
 import java.util.Map;
@@ -29,7 +26,8 @@ public class Tp5 {
         contactos.put(2657222222L, cliente2);
         contactos.put(2657333333L, cliente3);
         contactos.put(2657444444L, cliente4);
-        contactos.put(2657555555L, cliente5);
+        contactos.put(2657555555L, cliente5);        
+        contactos.put(2657555555L, cliente4); //ATENCION: Reemplaza la clave anterior con un nuevo cliente
         
         System.out.println("::: LISTADO ACTUAL :::");
         directorio.setListaDeContactos(contactos);
